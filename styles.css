@@ -4,6 +4,11 @@ h1 {
 
 .class1 {
     font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background: linear-gradient(lightblue 50%, rgb(241, 79, 79) 100%);
 }
 
 p sup {
@@ -16,4 +21,17 @@ p sub {
 
 a:hover {
     color:rgb(31, 136, 31);
+}
+
+ul {
+    padding: 50px 70px;
+}
+
+img {
+    padding: 30px 40px;
+    border: dashed black 5px;
+}
+
+#id {
+    color: rgb(2, 83, 83);
 }
