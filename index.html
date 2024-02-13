@@ -1,47 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main>
-        
-        <h1 class="class1">This is an H1 header.</h1>
-        <h2 class="class1">This is an H2 header.</h2>
-        <h3 class="class1">This is an H3 header.</h3>
-        <p>This is some text with <sup>superscript</sup>and<sub>subscript.</sub></p>
-        <ul>
-            <li><a href="https://google.com" target="_blank">This is a link to Google.</a></li>
-            <li><p class="class">This is an image of Google.</p><img src="image.png" alt="Image of Google"></li>
+    <header class="title-bar">
+        <h1>Home Page</h1>
+        <h2>The Basics</h2>
+    </header>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="page2.html">How To Play</a>
+        <a href="page3.html">Basic Deckbuilding</a>
+        <a href="test.html">Test Page for Grid Assignment</a>
+    </nav>
+    <div class="sidebar">
+        <h3 class="sidebar-heading">Links</h3>
+        <p class="sidebar-text">Download MTG Arena today:<a target="_blank" href="https://play.google.com/store/apps/details?id=com.wizards.mtga&hl=en_IE&gl=DE">
+            <u class="side-links">Android</u></a><a target="_blank" href="https://apps.apple.com/us/app/magic-the-gathering-arena/id1496227521"><u class="side-links">iOS</u></a></p>
+        <p class="sidebar-text">Learn even more beyond this website, and further your knowledge even more:<a href="https://magic.wizards.com/en/formats" target="_blank">
+            <u class="side-links">Official Formats and How To Play</u></a></p>
+        <p class="sidebar-text">Get in depth info on all the keywords and abilities on cards and creatures:<a href="https://magic.wizards.com/en/keyword-glossary" target="_blank">
+            <u class="side-links">Keyword Glossary</u></a></p>
+        <p class="sidebar-text">Get the latest news and info about all things Magic:<a href="https://magic.wizards.com/en/news" target="_blank">
+            <u class="side-links">News</u></a></p>
+    </div>
+    <main class="content">
+        <h2>Dive into the World of Magic: The Gathering</h2>
+        <img src="Images/mtgGame.webp">
+        <h3>Welcome to a Universe of Strategy and Imagination</h3>
+        <p>Magic: The Gathering is a game of endless possibilities, where fantasy worlds collide in spectacular duels.
+         As a Planeswalker, you wield a customized deck that's as unique as your playstyle. Whether you thrive on commanding mighty creatures, 
+         casting mind-bending spells, or orchestrating clever tactics, there's a path to victory for you.</p>
+         <h3>The Building Blocks of Magic</h3>
+         <ul>
+            <li><strong>Lands</strong>: Lands are your fundamental resource, producing mana – the magical energy powering your spells and abilities. 
+                Your deck's blend of lands ensures you have the right colors of mana when you need them.</li>
+            <li><strong>Creatures</strong>: Creatures are the heart of your army. Summon ferocious beasts, mystical beings, and legendary heroes to 
+                attack your opponent or stand firm as defenders.</li>
+            <li><strong>Spells</strong>: Change the tide of battle with devastating power. Sorceries and instants offer an array of effects: deal damage, 
+                bolster your creatures, counter your opponent's plans, and much more.</li>
+            <li><strong>Other Card Types</strong>: Artifacts represent powerful magical equipment and contraptions, enchantments bring lasting effects
+                 to the battlefield, and Planeswalkers themselves can enter the fray as mighty allies.</li> 
         </ul>
-        <a href="#link">Here is a link to the navigation at the bottom of the page.</a>
-        <p>This is a copyright sign: &copy;.</p>
-        <p><q><!--Filler text so that there is a section of the page to leap to for link above, everything was on the same page before-->The realm of Artificial Intelligence, once the playground of science fiction, has witnessed an unparalleled surge in recent times. It's no longer a question of "if" AI will impact our lives, but rather "how". From pixel-perfect art generation to disease prediction with uncanny accuracy, AI is rapidly evolving, pushing the boundaries of what we thought possible.
-
-            Remember the grainy, robotic voices of early chatbots? Today, AI assistants like me converse with unnerving naturalness, understanding context and intent with remarkable finesse. This progress stems from advancements in a subfield called Natural Language Processing (NLP), where algorithms devour vast amounts of text, learning the nuances of human language. The result? AI systems that write poetry, translate languages on the fly, and even compose news articles indistinguishable from human-crafted ones.
-            
-            But AI's reach extends far beyond words. In the realm of healthcare, AI-powered algorithms are analyzing medical scans with superhuman precision, spotting cancerous tumors at earlier stages and even predicting potential outbreaks. Imagine a world where AI helps doctors personalize treatment plans and flag potential risks before they become life-threatening.
-            
-            The creative world hasn't been spared either. Gone are the days of rudimentary stick-figure drawings generated by AI. Today, algorithms conjure breathtakingly realistic images and videos, blurring the lines between human and machine-made art. From composing music to choreographing dance routines, AI is unleashing a wave of creative expression, pushing the boundaries of what we consider art.
-            
-            However, amidst these advancements, ethical concerns loom large. Biases in training data can lead to discriminatory outcomes, and the potential misuse of AI for surveillance or manipulation poses real threats. As AI continues its development, addressing these issues head-on becomes paramount.
-            
-            This very text you're reading, while informative, is a testament to AI's capabilities. I, a large language model, processed and analyzed mountains of text data to learn the art of writing. While I may not possess the soul of a human writer, I can mimic styles, generate different creative text formats, and even answer your questions in an informative way.
-            
-            The development of AI is a race, not a sprint. With each stride forward, we must remember the ethical considerations and steer this powerful technology towards a future that benefits all. And who knows, perhaps someday, AI will write not just placeholder text, but stories that move our hearts and shape our understanding of the world.</q>-Bard</p>
+        <h3>The Flow of a Magic Game</h3>
+        <p>Think of a Magic game as a thrilling exchange of moves:</p>
+        <ul>
+            <li><strong>Untap</strong>: Start your turn by refreshing your resources. Lands and creatures that were “tapped” (used for mana or to attack)
+                 in the previous turn are ready for action again.</li>
+            <li><strong>Draw</strong>: Add a fresh card to your hand, bolstering your options.</li>
+            <li><strong>Play Lands</strong>: You can play one land per turn, ensuring your mana supply grows.</li>
+            <li><strong>Cast Spells</strong>: With mana from your lands, summon creatures, unleash enchantments, or cast a game-changing sorcery.</li>
+            <li><strong>Attack</strong>: Send your creatures charging at your opponent. They must use their creatures to block or take damage directly.</li>
+            <li><strong>Defend</strong>: If your opponent attacks, use your untapped creatures to form a defensive wall.
+            </li>
+        </ul>
+        <h3>Your Path to Victory</h3>
+        <p>The goal of Magic is to reduce your opponent's life total from 20 to zero.  Attack with your creatures, unleash powerful spells, and outsmart 
+            your opponent at every turn. The strategies are endless - it's up to you to forge your winning formula!</p>
+        <h3>Ready to become a Planeswalker?</h3>
+        <p>Click the image below to learn more!</p>
+        <a href="page2.html"><img id="learnmorepic" src="Images/LearnMorePicAI.jpg"></a>
     </main>
     <footer>
-        <nav>
-            <ul class="navigation" id="link">
-              <!--navigation bar, on every page-->
-              <li><a href="index.html">Home</a></li>
-              <li><a href="page2.html">Second Page</a></li>
-              <li><a href="page3.html">Page 3</a></li>
-            </ul>
-        </nav>     
+        <p>&copy;2024 williamodavis</p>
     </footer>
 </body>
 </html>
