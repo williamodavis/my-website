@@ -3,3 +3,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
 }
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('fonts/ALGER.TTF') format('truetype');
+}
+
+body {
+    font-family: 'MyFont', sans-serif;
+}
