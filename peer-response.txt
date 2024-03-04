@@ -1,3 +1,10 @@
 I do not currently have any feedback on the discussion(although I will update this page if I do get any). However, I did get some feedback during one of the Zoom classes.
 Some feedback that I received there was that the background gradient didn't look quite right, and the contrast of the background colors wasn't the best. I tried messing
 around with the gradient and changing the colors of the backgrounds to improve contrast, but it did not look as good as it does right now, in my opinion.
+
+UPDATE - 
+Things to fix - Above the fold, you have information about the website, but the alignment between the side bar and the main content is a little off. If you remove the top margin 
+in the .content section, it will even out. The second thing I noticed was that the footer stayed in the bottom left corner; it overlapped the main content. To fix that, remove 
+the position: fixed in the footer section.
+
+In my website, I made the two suggestions above, which were removing the margin-top for .content and making the footer not fixed on the page. 
