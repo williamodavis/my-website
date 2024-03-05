@@ -1,0 +1,68 @@
+Adapt | Put a +1/+1 counter on this creature.
+Afterlife | When this creature dies, create X 1/1 flying Spirit tokens.
+Amass | Create an Army token, then put +1/+1 counters on it.
+Convoke | Tap creatures to help pay mana costs.
+Crew | Tap creatures with total power X or more to turn this Vehicle into a creature.
+Disturb | Return from your graveyard transformed (back side).
+Embalm | Create a token copy of this creature, except it's white, a Zombie, and loses abilities.
+Enrage | Abilities trigger whenever this creature is dealt damage.
+Escape | May be cast from your graveyard by exiling other cards.
+Explore | Reveal a card, put it into your hand if it's a land, otherwise the creature gets +1/+1.
+Foretell | Pay a cost and exile a card from your hand face down. You may cast it later for a cheaper cost.
+Mutate | Put this card over/under another non-Human creature, combining their stats/abilities.
+Ninjutsu | Return an unblocked attacker you control to hand; put this creature onto the battlefield tapped and attacking.
+Raid | Abilities trigger if you attacked with a creature this turn.
+Riot | This creature enters with either haste or a +1/+1 counter.
+Spectacle | Reduced cost if an opponent lost life this turn.
+Training | Triggers whenever this creature attacks with another creature with greater power.
+Creature | A permanent that can attack and block, defined by its power and toughness.
+Artifact | A colorless permanent representing items, machines, constructs, etc.
+Enchantment | A permanent that typically creates a continuous effect on the game.
+Planeswalker | A powerful permanent with loyalty counters, used to activate unique abilities.
+Land | A permanent that produces mana.
+Ward | Protection-like, requires payment when targeted
+Prowess | Noncreature spell boost
+Changeling | Counts as all creature types
+Companion | Strict deckbuilding restriction
+Deathtouch | Any amount of damage from a creature with deathtouch is lethal to another creature.
+Defender | Creatures with defender cannot attack.
+Double Strike | Creatures with double strike deal combat damage twice.
+First Strike: Creatures with first strike deal combat damage before creatures without.
+Flash | Can be cast at instant speed.
+Flying | Can only be blocked by creatures with flying or reach.
+Haste | Can attack and tap the turn they enter the battlefield.
+Hexproof | Cannot be the target of opponent's spells or abilities.
+Indestructible | Cannot be destroyed by "destroy" effects.
+Lifelink | Damage dealt by the source causes you to gain that much life.
+Menace | Must be blocked by two or more creatures.
+Reach | Can block creatures with flying.
+Trample | Can assign excess combat damage to the defending player.
+Vigilance | Doesn't tap to attack.
+Affinity | Reduce cost by the number of artifacts you control.
+Bushido | Creature gets +X/+X, where X is its Bushido value.
+Cascade | Exile cards until you find a cheaper nonland card, and play it.
+Cipher | Encode a spell onto a creature to cast it later when combat damage is dealt.
+Cycling | Discard the card to draw a card.
+Delve | Exile cards from your graveyards to reduce costs.
+Equip | Attach to a creature you control.
+Evoke | Cast for alternate cost, then sacrifice the creature.
+Exalted | Whenever a creature you control attacks alone, it gets +1/+1.
+Flashback | Cast from your graveyard for an alternate cost.
+Hexproof from... | Like Hexproof, but against a specific source - colors, odd mana values, etc.
+Imprint | Exile a card with the permanent enters the battlefield.
+Kicker | Pay additional cost for a bonus effect.
+Modular | +1/+1 counters can be transferred to other artifact creatures.
+Myriad | When it attacks, create attacking token copies for each opponent.
+Protection From... | Can't be blocked, targeted, damaged, or enchanted by things with a certain quality.
+Rampage | Triggered ability taht depends on the creature's power.
+Rebound | Cast the spell again next turn for free if it was cast from your hand.
+Recover | Return from your graveyard to your hand by discarding a card.
+Renown | Creature gets +1/+1 counters whenever it deals combat damage to a player, unlocks new abilities with enough renown.
+Counters | Things placed on permanents that are removed when it dies. +1/+1 counters, poision counters, etc.
+Perpetual | Stays on the creature even after it leaves the battlefield(Or wherever it currently is).
+Retrace | Cast a card from your graveyard by discarding a land card.
+Suspend | Exile with time counters, cast later when the last counter is removed.
+Totem Armor | Prevents the enchanted permanent from being destroyed, the aura/enchantment is destroyed instead.
+Enchantment(Aura) | Type of enchantment that is attached to another permanent.
+Unearth | Return from the graveyard to the battlefield for a cost. 
+Devoid | This card is colorless.
