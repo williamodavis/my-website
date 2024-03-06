@@ -17,7 +17,7 @@
         <a href="page2.html">How To Play</a>
         <a href="page3.html">Basic Deckbuilding</a>
         <a href="page4.php">Keywords and Abilities</a>
-        <a href="test.html">Test Page for Assignments</a>
+        <!--<a href="test.html">Test Page for Assignments</a>-->
     </nav>
     <div class="sidebar">
         <ul>
