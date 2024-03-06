@@ -22,7 +22,7 @@
 
 .cardResult {
     margin-left: 25px;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .errorMessage {
@@ -31,4 +31,11 @@
 
 #phpFooter {
     margin-top: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .cardResult {
+        font-size: smaller;
+        line-height: 25px;
+    }
 }

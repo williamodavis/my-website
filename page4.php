@@ -36,7 +36,7 @@
     <main class="content">
     <?php
         echo "<h2 class='errorMessage'>Welcome to the Keyword and Ability Search Tool</h2>";
-        echo "<p class='errorMessage'>Search for abilities, keywords and more by using the searchbox below. (Ignore the warning below, if opening page for first time)</p>";
+        echo "<p class='errorMessage'>Search for abilities, keywords and more by using the searchbox below. (Ignore the warning below, if opening page for first)</p>";
     ?>
 
     <input type="text" name="q" placeholder="Search for keywords/abilities..." id="search">
