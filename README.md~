@@ -1,0 +1,4 @@
+To run this locally, you must first install PHP on your own system. Follow the video tutorial below.
+https://www.youtube.com/watch?v=MPRLUd8Pmyo
+
+Then, you need to install an extension called PHP Server by brapifra in VSCode. After doing that, right click in index.html and hit Serve Project.
