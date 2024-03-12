@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>The World of Magic: The Gathering</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="phpstyles.css">
 </head>
 <body>
     <form>
+    <!--Title bar-->
     <header class="title-bar">
         <h1>Keywords and Abilities</h1>
     </header>
+    <!--Nav bar---->
     <nav class="navbar">
         <a href="index.html">Home</a>
         <a href="page2.html">How To Play</a>
         <a href="page3.html">Basic Deckbuilding</a>
         <a href="page4.php">Keywords and Abilities</a>
+        <a href="page5.html">Videos and Resources</a>
         <!--<a href="test.html">Test Page for Assignments</a>-->
     </nav>
+    <!--Sidebar-->
     <div class="sidebar">
         <ul>
         <h3 class="sidebar-heading">Links</h3>
@@ -33,15 +37,17 @@
             <u class="side-links">News</u></a></p>
         </ul>
     </div>
+    <!--Main content-->
     <main class="content">
     <?php
         echo "<h2 class='errorMessage'>Welcome to the Keyword and Ability Search Tool</h2>";
-        echo "<p class='errorMessage'>Search for abilities, keywords and more by using the searchbox below. (Ignore the warning below, if opening page for first)</p>";
+        echo "<p class='errorMessage'>Search for abilities, keywords and more by using the searchbox below. (Ignore the warning below, if opening page for first time)</p>";
     ?>
 
     <input type="text" name="q" placeholder="Search for keywords/abilities..." id="search">
     <button type="submit" id="submit">Search</button>
     </main>
+    <!--Main PHP content-->
     <?php
         $searchTerm = strtolower($_GET['q']);  
 

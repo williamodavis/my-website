@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>The World of Magic: The Gathering</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!--Title bar-->
     <header class="title-bar">
         <h1>How To Play</h1>
     </header>
+    <!--Navbar-->
     <nav class="navbar">
         <a href="index.html">Home</a>
         <a href="page2.html">How To Play</a>
         <a href="page3.html">Basic Deckbuilding</a>
         <a href="page4.php">Keywords and Abilities</a>
+        <a href="page5.html">Videos and Resources</a>
         <!--<a href="test.html">Test Page for Assignments</a>-->
     </nav>
+    <!--Sidebar-->
     <div class="sidebar">
         <h3 class="sidebar-heading">Links</h3>
         <p class="sidebar-text">Download MTG Arena today:<a target="_blank" href="https://play.google.com/store/apps/details?id=com.wizards.mtga&hl=en_IE&gl=DE">
@@ -29,9 +33,10 @@
         <p class="sidebar-text">Get the latest news and info about all things Magic:<a href="https://magic.wizards.com/en/news" target="_blank">
             <u class="side-links">News</u></a></p>
     </div>
+    <!--Main content-->
     <main class="content2">
         <h2>Let's Learn Magic: The Gathering</h2>
-        <img src="Images/howToPlayHeader.webp">
+        <img src="Images/howToPlayHeader.webp" alt="Hand of MTG cards">
         <h3>Your Deck is Your Tool</h3>
         <ul>
             <li><p class="mini-header">Building a Deck</p></li>
@@ -59,7 +64,7 @@
             </ul>
         </ul>
         <h3>How a Game of Magic Works</h3>
-        <img src="Images/turnOrder.png" id="turnOrder">
+        <img src="Images/turnOrder.png" class="sideImage" alt="Turn order graphic">
         <ul>
             <li><p class="mini-header">Game Goal</p></li>
             <ul>
@@ -80,15 +85,15 @@
         <ul>
             <li><p class="mini-header">Example Turns</p></li>
             <ul>
-                <li><p class="id1 pic-show"><strong>Turn 1(You)</strong>: Play a <span class="hover-container"><a href="#">Forest</a><img src="Images/forest.jpg" class="card-image"></span> land.</p></li>
-                <li><p><strong>Turn 1(Opponent)</strong>: Play a <span class="hover-container"><a href="#">Swamp</a><img src="Images/swamp.jpg" class="card-image"></span> land.</p></li>
-                <li><p><strong>Turn 2(You)</strong>: Play another Forest, then cast a <span class="hover-container"><a href="#">Grizzly Bears</a><img src="Images/bears.jpg" class="card-image"></span> creature(a 2/2 creature).</p></li>
-                <li><p><strong>Turn 2(Opponent)</strong>: Plays a <span class="hover-container"><a href="#">Mountain</a><img src="Images/mountain.jpg" class="card-image"></span> land and casts a 
-                    <span class="hover-container"><a href="#">Goblin Arsonist</a><img src="Images/arsonist.jpg" class="card-image"></span> creature(a 1/1 creature).</p></li>
-                <li><p><strong>Turn 3(You)</strong>: Play a <span class="hover-container"><a href="#">Plains</a><img src="Images/plains.jpg" class="card-image"></span> land and cast a 
-                    <span class="hover-container"><a href="#">Revitalize</a><img src="Images/revitalize.jpg" class="card-image"></span> spell(Gain 3 life and draw a card).</p></li>
+                <li><p class="id1 pic-show"><strong>Turn 1(You)</strong>: Play a <span class="hover-container"><a href="#">Forest</a><img src="Images/forest.jpg" class="card-image" alt="Forest"></span> land.</p></li>
+                <li><p><strong>Turn 1(Opponent)</strong>: Play a <span class="hover-container"><a href="#">Swamp</a><img src="Images/swamp.jpg" class="card-image" alt="Swamp"></span> land.</p></li>
+                <li><p><strong>Turn 2(You)</strong>: Play another Forest, then cast a <span class="hover-container"><a href="#">Grizzly Bears</a><img src="Images/bears.jpg" class="card-image" alt="Grizzly Bears"></span> creature(a 2/2 creature).</p></li>
+                <li><p><strong>Turn 2(Opponent)</strong>: Plays a <span class="hover-container"><a href="#">Mountain</a><img src="Images/mountain.jpg" class="card-image" alt="Mountain"></span> land and casts a 
+                    <span class="hover-container"><a href="#">Goblin Arsonist</a><img src="Images/arsonist.jpg" class="card-image" alt="Goblin Arsonist"></span> creature(a 1/1 creature).</p></li>
+                <li><p><strong>Turn 3(You)</strong>: Play a <span class="hover-container"><a href="#">Plains</a><img src="Images/plains.jpg" class="card-image" alt="Plains"></span> land and cast a 
+                    <span class="hover-container"><a href="#">Revitalize</a><img src="Images/revitalize.jpg" class="card-image" alt="Revitalize"></span> spell(Gain 3 life and draw a card).</p></li>
                 <li><p><strong>Turn 3(Opponent)</strong>: Attacks with the Goblin Arsonist. You choose not to block. (Your life total goes down to 22).</p></li>
-                <li><p><strong>Turn 4(You)</strong>: Play a Mountain land, and cast a <span class="hover-container"><a href="#">Shock</a><img src="Images/shock.jpg" class="card-image"></span> spell,
+                <li><p><strong>Turn 4(You)</strong>: Play a Mountain land, and cast a <span class="hover-container"><a href="#">Shock</a><img src="Images/shock.jpg" class="card-image" alt="Shock"></span> spell,
                 dealing 2 damage to the Goblin Arsonist, destroying it.</p></li>
                 <li><p><strong>Turn 4(Opponent)</strong>: Plays a Swamp.</p></li>
             </ul>
@@ -110,6 +115,8 @@
             <li><p><strong>Play Online</strong>: Magic: The Gathering Arena is a fantastic way to play MTG for free, learn the rules at your own pace, 
                 and practice against other players. You can find it on Android, iOS, and Steam.</p></li>
         </ul>
+        <br><br><br>
+        <a href="#"><h3 class="backToTop">Back to Top</h3></a> <!--Back to top link-->
     </main>
     <footer>
         <p>&copy;2024 williamodavis</p>
