@@ -3,118 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The World of Magic: The Gathering</title>
+    <title>Serenity Minecraft</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!--Title bar-->
     <header class="title-bar">
-        <h1>How To Play</h1>
+        <h1>How to Claim Land</h1>
     </header>
     <!--Navbar-->
     <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="page2.html">How To Play</a>
-        <a href="page3.html">Basic Deckbuilding</a>
-        <a href="page4.php">Keywords and Abilities</a>
-        <a href="page5.html">Videos and Resources</a>
+        <a href="index.html">How To Join</a>
+        <a href="page2.html">Claiming Land</a>
+        <a href="page3.html">Warps, Homes, TPA, and RTP</a>
+        <a href="page4.html">mcMMO</a>
+        <!--<a href="page5.html">Magic</a>-->
+        <a href="page6.html">Sign Shops</a>
+        <a href="page7.html">All Plugins</a>
         <!--<a href="test.html">Test Page for Assignments</a>-->
     </nav>
     <!--Sidebar-->
     <div class="sidebar">
-        <h3 class="sidebar-heading">Links</h3>
-        <p class="sidebar-text">Download MTG Arena today:<a target="_blank" href="https://play.google.com/store/apps/details?id=com.wizards.mtga&hl=en_IE&gl=DE">
-            <u class="side-links">Android</u></a><a target="_blank" href="https://apps.apple.com/us/app/magic-the-gathering-arena/id1496227521"><u class="side-links">iOS</u></a>
-            <a target="_blank" href="https://store.steampowered.com/app/2141910/Magic_The_Gathering_Arena/"><u class="side-links">Steam</u></a></p>
-        <p class="sidebar-text">Learn even more beyond this website, and further your knowledge even more:<a href="https://magic.wizards.com/en/formats" target="_blank">
-            <u class="side-links">Official Formats and How To Play</u></a></p>
-        <p class="sidebar-text">Get in depth info on all the keywords and abilities on cards and creatures:<a href="https://magic.wizards.com/en/keyword-glossary" target="_blank">
-            <u class="side-links">Keyword Glossary</u></a></p>
-        <p class="sidebar-text">Get the latest news and info about all things Magic:<a href="https://magic.wizards.com/en/news" target="_blank">
-            <u class="side-links">News</u></a></p>
+        <h3 class="sidebar-heading">Announcements</h3>
+        <p class="sidebar-text">No announcements right now, stay tuned!</p>
+        <h3 class="sidebar-heading">Support</h3>
+        <p class="sidebar-text">DM <strong>@williamodavis</strong> or <strong>@legoro_roland</strong> on Discord, or use the <strong>#minecraft-chat</strong> channel.</p>
     </div>
     <!--Main content-->
-    <main class="content2">
-        <h2>Let's Learn Magic: The Gathering</h2>
-        <img src="Images/howToPlayHeader.webp" alt="Hand of MTG cards">
-        <h3>Your Deck is Your Tool</h3>
+    <main class="content">
+        <h2>Claiming Land</h2>
+        <img src="Images/huskclaimsIcon.jpg" alt="Icon with 'HuskClaims' on it">
+        <h3>Getting the Claim Tools</h3>
+        <p>To get the claim tools, first run the command <strong>/kit landclaim</strong>. This will give you a wooden shovel and golden shovel. The golden shovel is used to create claims, and the wooden shovel is 
+        used to view your claim boundaries.</p>
+        <h3>Claiming Land</h3>
+        <p>Once you have the claim tools, you are ready to claim land. Click the ground twice with the golden shovel, and each of the spots you click will become two corners of a claim. 
+            Claims must be at least 5 by 5 blocks in size.
+        </p>
+        <h3>Trust Levels</h3>
+        <p>Our land claim plugin has 4 levels of trust that you can give players.</p>
         <ul>
-            <li><p class="mini-header">Building a Deck</p></li>
-            <ul>
-                <li><p class="id1">Your deck is your toolbox of spells and creatures. A standard deck has a minimum of 60 cards – 
-                    you can have a maximum of four copies of any single card (except for basic lands).</p></li>
-                <li><p>It's easiest to start by focusing on one or two colors of mana and building a deck with a clear theme 
-                    (like a creature rush, or lots of spellcasting).</p></li>
-
-            </ul>
-            <li><p class="mini-header">Card Types</p></li>
-            <ul>
-                <li><p class="id1"><strong>Lands</strong>: These are your mana sources. You'll need lands to cast almost every other card.</p></li>
-                <li><p><strong>Creatures</strong>: Your creatures are both your attackers and defenders. They are defined by their power 
-                    (how much damage they deal) and toughness (how much damage they can take).</p></li>
-                <li><p><strong>Sorceries</strong>: These potent spells have a one-time effect and then go to your graveyard (discard pile).</p></li>
-                <li><p><strong>Instants</strong>: These spells can be played in response to other spells or on your opponent's turn, offering flexibility.</p></li>
-                <li><p><strong>Enchantments</strong>: These stay on the battlefield, offering long-term benefits or effects.</p></li>
-                <li><p><strong>Artifacts</strong>: These represent magical equipment and other objects, and usually stay in play.</p></li>
-                <li><p><strong>Planerswalkers</strong>: These powerful cards represent allies you can summon to the battlefield. Each has unique abilities and a 
-                    loyalty counter total (like their own life total).</p></li>
-                <li><p><strong>Battles</strong>: These are a very rare card type found on only a small subset of cards, usually depicting epic events with special rules.</p></li>
-                <li><p><strong>Sagas</strong>: These are a special type of enchantment. They have "chapters" that trigger effects each turn as you add lore counters. 
-                    After the final chapter, the Saga is sacrificed.</p></li>
-            </ul>
+            <li><strong>Access Trust (/accesstrust)</strong> - Allows players to use buttons, levers, open doors, etc.</li>
+            <li><strong>Container Trust (/containertrust)</strong> - Allows players to open chests, hoppers, furnaces, etc(and everything above).</li>
+            <li><strong>Build Trust (/trust)</strong> - Allows players to build and break blocks in claims, and everything above.</li>
+            <li><strong>Manage Trust (/permissiontrust)</strong> - Allows players to have full access to the claim, including trusting other players, create child claims, etc.</li>
         </ul>
-        <h3>How a Game of Magic Works</h3>
-        <img src="Images/turnOrder.png" class="sideImage" alt="Turn order graphic">
-        <ul>
-            <li><p class="mini-header">Game Goal</p></li>
-            <ul>
-                <li><p class="id1">You and your opponent each start with 20 life. Your goal is to reduce your opponent's life to zero before they do the same to you.</p></li>
-            </ul>
-            <li><p class="mini-header">The Turn, In Order</p></li>
-            <ul>
-                <li><p class="id1"><strong>Untap</strong>: Untap any cards you used ("tapped") on your last turn.</p></li>
-                <li><p><strong>Upkeep</strong>: Some cards have special effects that happen during upkeep.</p></li>
-                <li><p><strong>Draw</strong>: Take the top card of your deck into your hand.</p></li>
-                <li><p><strong>Main Phase 1</strong>: Your main time to play lands, creatures, and spells.</p></li>
-                <li><p><strong>Combat</strong>: Declare your attackers, your opponent chooses blockers, and damage is dealt.</p></li>
-                <li><p><strong>Main Phase 2</strong>: Chance to play additional cards if you didn't before combat.</p></li>
-                <li><p><strong>End Step</strong>: A brief cleanup phase, and then your opponent's turn begins!</p></li>
-            </ul>
-        </ul>
-        <h3>Example Game</h3>
-        <ul>
-            <li><p class="mini-header">Example Turns</p></li>
-            <ul>
-                <li><p class="id1 pic-show"><strong>Turn 1(You)</strong>: Play a <span class="hover-container"><a href="#">Forest</a><img src="Images/forest.jpg" class="card-image" alt="Forest"></span> land.</p></li>
-                <li><p><strong>Turn 1(Opponent)</strong>: Play a <span class="hover-container"><a href="#">Swamp</a><img src="Images/swamp.jpg" class="card-image" alt="Swamp"></span> land.</p></li>
-                <li><p><strong>Turn 2(You)</strong>: Play another Forest, then cast a <span class="hover-container"><a href="#">Grizzly Bears</a><img src="Images/bears.jpg" class="card-image" alt="Grizzly Bears"></span> creature(a 2/2 creature).</p></li>
-                <li><p><strong>Turn 2(Opponent)</strong>: Plays a <span class="hover-container"><a href="#">Mountain</a><img src="Images/mountain.jpg" class="card-image" alt="Mountain"></span> land and casts a 
-                    <span class="hover-container"><a href="#">Goblin Arsonist</a><img src="Images/arsonist.jpg" class="card-image" alt="Goblin Arsonist"></span> creature(a 1/1 creature).</p></li>
-                <li><p><strong>Turn 3(You)</strong>: Play a <span class="hover-container"><a href="#">Plains</a><img src="Images/plains.jpg" class="card-image" alt="Plains"></span> land and cast a 
-                    <span class="hover-container"><a href="#">Revitalize</a><img src="Images/revitalize.jpg" class="card-image" alt="Revitalize"></span> spell(Gain 3 life and draw a card).</p></li>
-                <li><p><strong>Turn 3(Opponent)</strong>: Attacks with the Goblin Arsonist. You choose not to block. (Your life total goes down to 22).</p></li>
-                <li><p><strong>Turn 4(You)</strong>: Play a Mountain land, and cast a <span class="hover-container"><a href="#">Shock</a><img src="Images/shock.jpg" class="card-image" alt="Shock"></span> spell,
-                dealing 2 damage to the Goblin Arsonist, destroying it.</p></li>
-                <li><p><strong>Turn 4(Opponent)</strong>: Plays a Swamp.</p></li>
-            </ul>
-            <li><p class="mini-header">Explanations</p></li>
-            <ul>
-                <li><p class="id1">Turns often begin by playing a land to increase your mana resources.</p></li>
-                <li><p>Creates can attack your opponents directly, unless they have creatures to block.</p></li>
-                <li><p>Spells give you a wide range of effects, from gaining life to removing your opponent's creatures.</p></li>
-            </ul>
-        </ul>
-        <h3>Keep Exploring and Have Fun!</h3>
-        <ul>
-            <li><p class="id1"><strong>Start Simple, and Learn as You Go</strong>: Don't try to learn everything at once. Begin with the basics, 
-                and you'll naturally discover exciting new cards and strategies as you play.</p></li>
-            <li><p><strong>Find Your Community</strong>: Local game stores often have beginner-friendly events. This is a great way to meet other players 
-                and learn in a welcoming environment.</p></li>
-            <li><p><strong>Embrace the Journey</strong>: Magic is huge! It's meant to be discovered over time. Enjoy the process of building your decks, 
-                learning new cards, and making new friends in this awesome game.</p></li>
-            <li><p><strong>Play Online</strong>: Magic: The Gathering Arena is a fantastic way to play MTG for free, learn the rules at your own pace, 
-                and practice against other players. You can find it on Android, iOS, and Steam.</p></li>
-        </ul>
+        <h3>Getting More Claim Blocks</h3>
+        <p>Each player starts the game with 5000 claim blocks, and every hour you gain another 500 claim blocks. </p>
+        <h3>Additional Info</h3>
+        <p>For additional info, check the resources linked below.<br><a target="blank_" href="https://william278.net/docs/huskclaims">Wiki</a></p>
+        <iframe id="id5" src="https://www.youtube.com/embed/D3Ug8saRqbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br><br><br>
         <a href="#"><h3 class="backToTop">Back to Top</h3></a> <!--Back to top link-->
     </main>
